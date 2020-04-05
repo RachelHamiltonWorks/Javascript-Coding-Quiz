@@ -8,6 +8,10 @@ var quizContainer = document.getElementById("quizContainer");
 var scoreContainer = document.getElementById("score"); //tallies points, will save to high scores
 var highScores
 
+const choiceA = document.getElementById("A");
+const choiceB = document.getElementById("B");
+const choiceC = document.getElementById("C");
+
 //Timer 
 document.getElementById("startQuizAndTimer").addEventListener("click", function(){
   var timeleft = 100;
